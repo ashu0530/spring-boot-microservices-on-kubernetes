@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS dockercon2017;
-CREATE DATABASE IF NOT EXISTS dockercon2017;
-USE `dockercon2017`;
+DROP DATABASE IF EXISTS ashutoshdatabase2022;
+CREATE DATABASE IF NOT EXISTS ashutoshdatabase2022;
+USE `ashutoshdatabase2022`;
 
 CREATE TABLE `account` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
