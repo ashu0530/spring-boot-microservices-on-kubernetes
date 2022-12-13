@@ -44,7 +44,7 @@ async.retry({
     function(callback) {
         var hostName = process.env.MYSQL_DB_HOST || "account-database";
         var portNumber = process.env.MYSQL_DB_PORT || "3306";
-        var username = process.env.MYSQL_DB_USER || "michaelbolton";
+        var username = process.env.MYSQL_DB_USER || "ashu";
         var password = process.env.MYSQL_DB_PASSWORD || "password";
 
         var client = mysql.createConnection({
@@ -52,7 +52,7 @@ async.retry({
             port: portNumber,
             user: username,
             password: password,
-            database: "dockercon2017"
+            database: "ashutoshdatabase2022"
         });
 
         console.log('Connecting')
