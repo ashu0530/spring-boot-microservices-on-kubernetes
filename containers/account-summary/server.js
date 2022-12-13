@@ -76,7 +76,7 @@ async.retry({
 function getAccount(client) {
 
     console.log('Querying')
-    var queryText = 'SELECT * FROM account WHERE id=12345'
+    var queryText = 'SELECT * FROM account WHERE id=12345;'
 
     client.query(queryText, function(error, result) {
         if (error) {
